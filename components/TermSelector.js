@@ -33,7 +33,7 @@ const termButtonBase = {
     padding: 10,
     minWidth: 90,
     maxWidth: 90,
-  };
+};
 
 const styles = StyleSheet.create({
     termSelector: {
