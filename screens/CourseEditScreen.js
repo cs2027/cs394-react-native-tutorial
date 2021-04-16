@@ -42,7 +42,7 @@ const CourseEditScreen = ({navigation, route}) => {
         firebase.database().ref('courses').child(id).set(course).catch(error => {
           setSubmitError(error.message);
         });
-      }
+    }
 
     return (
         <SafeAreaView style={styles.container}>
